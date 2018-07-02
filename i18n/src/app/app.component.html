@@ -1,0 +1,16 @@
+<div class="header">
+  <h1>{{ 'header' | translate }}</h1>
+</div>
+<!-- 通过管道获取国际化的数据 -->
+<div>{{ 'HELLO' | translate:param }}</div>
+<!-- 通过指令获取国际化的数据 -->
+<div [translate]="'welcome'" [translateParams]="{name: 'Tom' | translate}"></div>
+<!-- 这样的指令效果也是一样的 -->
+<div translate [translateParams]="{name: 'Jerry' | translate}">welcome</div>
+
+<div class="footer">
+  <select name="lang" id="lang" (change)="changeLang($event)">
+    <option value="zh">中文简体</option>
+    <option value="en">English</option>
+  </select>
+</div>

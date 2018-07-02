@@ -1,0 +1,8 @@
+{
+  "Tom": "Tom",
+  "Jack": "Jack",
+  "Jerry": "Jerry",
+  "header": "This is a header!",
+  "HELLO": "hello, {{ name }}",
+  "welcome": "Welcome to enter my website, {{ name }}"
+}
