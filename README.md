@@ -1,2 +1,5 @@
 # angular
-I will post something angular demo
+
+## 2018-07-02
+
+* 今天更新了一个angular国际化的demo及简单说明，在i18n文件夹下，我当前采用的angular/cli版本为6.0
