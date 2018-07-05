@@ -1,0 +1,5 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<app-child1 [msg1]="msg1" (message)="getMsg1($event)"></app-child1>
+<app-child2 [msg2]="msg2" (message)="getMsg2($event)"></app-child2>
+<h2 *ngIf="message1">这是从子组件1传过来的消息<span>{{ message1 }}</span></h2>
+<h2 *ngIf="message2">这是从子组件2传过来的消息<span>{{ message2 }}</span></h2>

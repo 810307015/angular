@@ -1,0 +1,9 @@
+<h1>我是子组件2</h1>
+<p>
+  {{ msg2 }}
+</p>
+<p *ngFor="let con of content">
+  {{ con }}
+</p>
+<button (click)="postMsg()">向父组件传递消息</button>
+<button (click)="postToChild()">向子组件传递消息</button>
